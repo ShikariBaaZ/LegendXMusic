@@ -1,17 +1,9 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki >
-#
-# All rights reserved.
-
 from LegendX.core.bot import LegendXBot
 from LegendX.core.dir import dirr
 from LegendX.core.git import git
 from LegendX.core.userbot import Userbot
 from LegendX.misc import dbb, heroku, sudo
+from aiohttp import ClientSession
 
 from .logging import LOGGER
 
@@ -45,3 +37,5 @@ Apple = AppleAPI()
 Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
+
+aiohttpsession = ClientSession()
