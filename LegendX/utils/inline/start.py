@@ -16,18 +16,18 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ",
+                text="✨ʜᴇʟᴩ✨",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="✨sᴇᴛᴛɪɴɢs✨", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
+                text="★彡[ᴅᴇᴠᴇʟᴏᴘᴇʀ]彡★", user_id=OWNER),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
+                text="𝓈𝓊𝓅𝓅𝑜𝓇𝓉", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -44,18 +44,18 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ", callback_data="settings_back_helper"
+                text="✨ʜᴇʟᴩ✨", callback_data="settings_back_helper"
             ),
         ],
         [
-            InlineKeyboardButton(text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
+            InlineKeyboardButton(text="★彡[ᴅᴇᴠᴇʟᴏᴘᴇʀ]彡★", user_id=OWNER),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
+                text="𝓈𝓊𝓅𝓅𝑜𝓇𝓉", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{config.UPSTREAM_REPO}"
+                    text="𝕊𝕠𝕦𝕣𝕔𝕖 𝕔𝕠𝕕𝕖", url=f"{config.UPSTREAM_REPO}"
                 )
         ],
      ]
