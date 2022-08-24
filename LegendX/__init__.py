@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-from LegendX.core.bot import YukkiBot
+from LegendX.core.bot import LegendXBot
 from LegendX.core.dir import dirr
 from LegendX.core.git import git
 from LegendX.core.userbot import Userbot
@@ -31,7 +31,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = YukkiBot()
+app = LegendXBot()
 
 # Assistant Client
 userbot = Userbot()
